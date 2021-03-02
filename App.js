@@ -27,7 +27,7 @@ import {
 import CalendarModule from './components/ConstModule';
 
 console.log('NativeModules', NativeModules);
-console.log('Constantes', CalendarModule);
+console.log('Constantes', CalendarModule.getConstants());
 
 const App: () => React$Node = () => {
   return (
