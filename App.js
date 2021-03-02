@@ -26,7 +26,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import CalendarModule from './components/ConstModule';
 
-console.log('Constantes', CalendarModule.getConstants());
+console.log('NativeModules', NativeModules);
+console.log('Constantes', CalendarModule);
 
 const App: () => React$Node = () => {
   return (

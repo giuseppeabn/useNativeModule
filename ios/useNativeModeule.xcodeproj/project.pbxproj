@@ -20,6 +20,8 @@
 		480736522D9C985121F8CE1F /* libPods-useNativeModeule-useNativeModeuleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB12A342CA8D923A0EDA20B1 /* libPods-useNativeModeule-useNativeModeuleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		96CFF7B7BF9F17994B997FA2 /* libPods-useNativeModeule-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A6EE1A7B6CF4629546C2AF /* libPods-useNativeModeule-tvOS.a */; };
+		E3BAF22325EEC3B6008FC595 /* RCTCalendarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BAF22225EEC3B6008FC595 /* RCTCalendarModule.m */; };
+		E3BAF22425EEC3B6008FC595 /* RCTCalendarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BAF22225EEC3B6008FC595 /* RCTCalendarModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		B85641FFB541D578A814E13B /* Pods-useNativeModeule-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-useNativeModeule-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-useNativeModeule-tvOSTests/Pods-useNativeModeule-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		DB12A342CA8D923A0EDA20B1 /* libPods-useNativeModeule-useNativeModeuleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-useNativeModeule-useNativeModeuleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA2F238BEC205BB571BB46A /* libPods-useNativeModeule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-useNativeModeule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BAF21D25EEC272008FC595 /* RCTCalendarModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTCalendarModule.h; sourceTree = "<group>"; };
+		E3BAF22225EEC3B6008FC595 /* RCTCalendarModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTCalendarModule.m; sourceTree = "<group>"; };
 		E56DFDBA249D07B7054B760F /* Pods-useNativeModeule-useNativeModeuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-useNativeModeule-useNativeModeuleTests.debug.xcconfig"; path = "Target Support Files/Pods-useNativeModeule-useNativeModeuleTests/Pods-useNativeModeule-useNativeModeuleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -132,6 +136,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				E3BAF21D25EEC272008FC595 /* RCTCalendarModule.h */,
+				E3BAF22225EEC3B6008FC595 /* RCTCalendarModule.m */,
 			);
 			name = useNativeModeule;
 			sourceTree = "<group>";
@@ -194,7 +200,6 @@
 				E56DFDBA249D07B7054B760F /* Pods-useNativeModeule-useNativeModeuleTests.debug.xcconfig */,
 				FDD2D482603FFCC0D76DA39E /* Pods-useNativeModeule-useNativeModeuleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -561,6 +566,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* useNativeModeuleTests.m in Sources */,
+				E3BAF22425EEC3B6008FC595 /* RCTCalendarModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +574,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3BAF22325EEC3B6008FC595 /* RCTCalendarModule.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
